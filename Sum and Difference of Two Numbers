@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	
+    //Declaring variables: two of type int and two of type float.
+    short int IntVar1, IntVar2;
+    float FloatVar1, FloatVar2;
+    
+    //Reading inputs as per the Input Format with respective format specifiers.
+    scanf("%hi %hi\n%f %f", &IntVar1, &IntVar2, &FloatVar1, &FloatVar2);
+    
+    //Printing the sum and difference of two int & float variables.
+    printf("%d %d\n", IntVar1+IntVar2, IntVar1-IntVar2);
+    printf("%.1f %.1f\n", FloatVar1+FloatVar2, FloatVar1-FloatVar2);   
+     
+    return 0;
+}
